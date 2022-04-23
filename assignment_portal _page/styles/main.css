@@ -1,0 +1,36 @@
+body {
+    max-width: 60%;
+}
+
+header {
+    display:grid;
+    grid-template-columns: 200px 300px;
+    grid-template-rows: 150px;
+    text-decoration: center;
+    padding: 50px;
+    background-color: gray;
+    border: 5px solid black;
+    border-radius: 10px;
+    margin: 70px;
+}
+main {
+    margin: 70px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+
+footer {
+    background-color: gray;
+    border: 5px solid black;
+    border-radius: 10px;
+    text-align: center;
+    margin:70px;
+
+}
+
+hr.solid {
+    border-top: 3px solid #bbb;
+  }
