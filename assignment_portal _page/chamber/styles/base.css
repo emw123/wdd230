@@ -1,0 +1,100 @@
+header{
+    background-color: #918EF4;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+div{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: auto;
+    font-size: 1.5em;
+    text-align: center;
+
+}
+.header-logo {
+    border: 3px solid gray;
+    border-radius: 40%;
+    width: 90px;
+    margin-left: 10px;
+    grid-column: 1/2;
+    grid-row: 1/1;
+}
+
+.site-name {
+    font-size: 1cm;
+    font-weight: bold;
+    text-align: center;
+    grid-column: 2/2;
+    grid-row: 1/1;
+}
+
+
+body {
+    background-color: #98B9F2;
+}
+
+nav button{
+    margin: .2rem 2vw;
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+}
+
+nav {
+    background-color: #918EF4;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display:none
+}
+
+nav ul.open{
+    display: block;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: #333;
+    border-top: 1px solid rgba(0,0,0,0.5)
+}
+
+nav ul li a:hover {
+    background-color: rgba(0,0,0,0.3);
+}
+
+nav ul li.active a {
+    background-color: rgba(0,0,0,0.2);
+    color: #fff;
+}
+
+section {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: lightblue;
+    padding: 20px 51px;
+    margin: 10px;
+}
+
+main {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 50px
+    
+}
+
+
+footer {
+    background-color: #918EF4;
+    border-radius: 10px;
+    text-align: center;
+    margin:70px;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
