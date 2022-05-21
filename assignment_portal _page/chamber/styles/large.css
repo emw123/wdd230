@@ -37,6 +37,11 @@
         font-size: 0.7cm;
         text-align: center;
     }
+
+    nav li a:hover {
+        background-color: rgba(0,0,0,0.3);
+    }
+    
     div{
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -78,10 +83,24 @@
         grid-gap: 30px;
     }
 
-    section {
-        border: 1px solid black;
+
+    #hero-parent {
+        position:relative;
+    }
+    
+    #hero-child {
+        position: absolute;
+        top:-450px;
+        left:20px;
+    }
+
+    #hero-button{
+        font-size: 40px;
+        position: absolute;
+        top:-80px;
+        left:800px;
+        background-color: #918EF4;
         border-radius: 10px;
-        background-color: lightblue;
     }
 
     .hero {
@@ -89,29 +108,99 @@
         grid-row: 1/3;
     }
 
+    .hero-image {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+    }
+
     .event {
         grid-column: 1/1;
         grid-row: 1/1;
+        background-color: lightblue;
+        border-radius: 10px;
+        text-align: center;
     }
 
     .weather {
         grid-column: 1/1;
         grid-row: 2/2;
+        background-color: lightblue;
+        border-radius: 10px;
+        text-align: center;
     }
 
     .join{
         grid-column: 1/1;
         grid-row: 3/3;
+        background-color: lightblue;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    .join-button {
+        font-size: 20px;
+        background-color: #918EF4;
+        border-radius: 10px;
+        text-align: center;
+        margin-top: 10px;
     }
 
     .news {
         grid-column: 2/2;
         grid-row: 3/3;
+        background-color: lightblue;
+        border-radius: 10px;
+        text-align: center;
     }
 
     .spotlight {
         grid-column: 3/3;
         grid-row: 1/4;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    .spotlight1{
+        font-size: 15px;
+        background-color: lightblue;
+        border-radius: 10px;
+        text-align: center;
+        margin:10px;
+    }
+
+    .pizza-image{
+        width: 20%;
+        height: 100%;
+        margin-left: 100px;
+        
+    }
+
+    .car-image{
+        width: 20%;
+        height: 100%;
+        margin-left: 100px;
+    }
+
+    .boat-image{
+        width: 20%;
+        height: 100%;
+        margin-left: 100px;
+    }
+    .spotlight2{
+        font-size: 15px;
+        background-color: lightblue;
+        border-radius: 10px;
+        text-align: center;
+        margin:10px;
+    }
+
+    .spotlight3{
+        font-size: 15px;
+        background-color: lightblue;
+        border-radius: 10px;
+        text-align: center;
+        margin:10px;
     }
 
 }

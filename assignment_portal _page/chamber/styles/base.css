@@ -1,3 +1,5 @@
+@media only screen and (max-width: 600px) {
+
 header{
     background-color: #918EF4;
     margin-bottom: 15px;
@@ -73,11 +75,8 @@ nav ul li.active a {
 }
 
 section {
-    border: 1px solid black;
-    border-radius: 10px;
-    background-color: lightblue;
-    padding: 20px 51px;
-    margin: 10px;
+    border-radius: 10px solid black;
+    margin-bottom: 15px;
 }
 
 main {
@@ -85,10 +84,96 @@ main {
     flex-direction: column;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin: 50px
+    margin: 50px;
+}
+
+#hero-parent {
+    position:relative;
+}
+
+#hero-child {
+    position: absolute;
+    top:-300px;
+    left:20px;
+    font-size: 20px;
+}
+
+#hero-button{
+    font-size: 40px;
+    position: absolute;
+    top:-120px;
+    left:90px;
+    background-color: #918EF4;
+    border-radius: 10px;
+}
+
+.hero-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+
+.event {
+    background-color: lightblue;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.weather {
+    background-color: lightblue;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.news {
+    background-color: lightblue;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.join{
+    display: none;
+}
+
+.spotlight1{
+    font-size: 15px;
+    background-color: lightblue;
+    border-radius: 10px;
+    text-align: center;
+    margin:10px;
+}
+
+.pizza-image{
+    width: 20%;
+    height: 100%;
+    margin-left: 100px;
     
 }
 
+.car-image{
+    width: 20%;
+    height: 100%;
+    margin-left: 100px;
+}
+
+.boat-image{
+    width: 20%;
+    height: 100%;
+    margin-left: 100px;
+}
+.spotlight2{
+    font-size: 15px;
+    background-color: lightblue;
+    border-radius: 10px;
+    text-align: center;
+    margin:10px;
+}
+
+.spotlight3 {
+    display: none;
+}
 
 footer {
     background-color: #918EF4;
@@ -97,4 +182,6 @@ footer {
     margin:70px;
     font-size: 30px;
     margin-bottom: 15px;
+}
+
 }
