@@ -1,0 +1,55 @@
+table {
+    justify-content: center;
+	margin: 5px auto;
+	border: 1px solid darkgray;
+	box-shadow: 30px 30px 40px -3px gray;
+	border-collapse: collapse;
+    font-family: 'Ubuntu', sansbo-serif;
+}
+
+caption {
+    padding: 10px;
+    caption-side: bottom;
+    font-size: .80rem;
+    background-color: lightgray;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+tr:first-child th {
+	background-color: darkblue;
+	color: white;
+    padding: 10px;
+    font-size: 30px;
+}
+
+th, td, caption {
+	padding: 5px 5px;
+	border: 1px solid gray;
+}
+
+th {
+	background-color: blue;
+    font-size: 18px;
+}
+
+td {
+	text-align: center;
+}
+
+tbody tr:nth-child(4) td:nth-child(3) {
+    background-color: yellow;
+}
+
+tbody tr:nth-child(5) td:nth-child(1) {
+    font-style:italic
+}
+
+
+tbody tr:nth-child(odd) {
+    background-color: lightgray;
+}
+
+tbody tr:nth-child(even) {
+	background-color: lightblue;
+}
