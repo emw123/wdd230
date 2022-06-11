@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Page</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="styles/form.css">
+</head>
+<body>
+    <header> 
+        <div>
+        <img class = 'header-logo' src="images/copy-shark-logo.webp" alt="logo">
+        <p class = "site-name">Whitefish Chamber of Commerce</p>
+        <p><span id = 'headerdate'></span></p>
+        </div>     
+        <nav>
+            <button id = "hamburgerButton">&#9776;</button>
+            <ul id = "primaryNav">
+                <li class = "active">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class = "active">
+                    <a href="discover.html">Discover</a>
+                </li>
+                <li class = "active">
+                    <a href="join.html">Join</a>
+                </li>
+                <li class = "active">
+                    <a href="#">Page 4</a>
+                </li>
+                <li class = "active">
+                    <a href="#">Facebook</a>
+                </li>
+                <li class = "active">
+                    <a href="#">Instagram</a>
+                </li>
+
+                </ul>
+            </nav>   
+    </header>
+    <form method = "get" action = "thankyou.html">
+        <fieldset>
+            <legend>Chamber Membership Application</legend>
+            <p class = "required">* Required Field</p>
+            <label class="top" for="firstName">First Name*:
+                <input type="text" name="firstName" id="firstName" required>
+            </label>
+            <label class="top" for="lastName">Last Name*:
+                <input type="text" name="lastName" id="lastName" required>
+            </label>
+            <label class="top" for="businessPosition">Business Position:
+                <input type="text" name="businessPosition" id="businessPosition">
+            </label>
+            <label class="top" for="email">Email:
+                <input type="email" name="email" id="email" placeholder="example@email.com">
+            </label>
+            <label class="top" for="phone">Phone*:
+                <input type="tel" name="phone" id="phone" required>
+            </label>
+            <label class="top" for="businessName">Business Name*:
+                <input type="text" name="businessName" id="businessName" required>
+            </label>
+            <fieldset>
+                <legend>Membership Levels (please select one):</legend>
+                <label class="level"><input type="radio" name="options" value="npMembership">NP Membership</label>
+                <label class="level"><input type="radio" name="options" value="bronzeMembership">Bronze Membership</label>
+                <label class="level"><input type="radio" name="options" value="silverMembership">Silver Membership</label>
+                <label class="level"><input type="radio" name="options" value="goldMembership">Gold Membership</label>
+            </fieldset>
+            <label class="description">
+                <p>Business Description:</p>
+                <textarea name="businessDescription" id="businessDescription" cols="60" rows="5"></textarea>
+            </label>
+            <label>
+                <input id="date" type="hidden" name="email_sent_date">
+            </label>
+            <label>
+                <input class="submit" type="submit" value="Join The Chamber!">
+            </label>
+        </fieldset>
+    </form>
+    <footer>
+        <img class = 'header-logo' src="images/copy-shark-logo.webp" alt="logo">
+        <p>&copy;<span id = 'year'></span> Whitefish Chamber | Emma Ward | WDD 230 Project | Last Modification: <span id = 'lastDate'></span></p>
+    </footer>
+    <script src="scripts/chamber.js"></script>
+</body>
+</html>

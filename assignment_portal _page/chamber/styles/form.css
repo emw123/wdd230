@@ -1,0 +1,74 @@
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: .5rem 2%;
+    font-size: 25px;
+}
+
+form legend {
+    color: #000;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form .required {
+    color: #f00;
+    font-size: 1rem;
+    padding:0px;
+}
+
+form label.top {
+    display: block;
+    padding-top: 1rem;
+    font-size: 1rem;
+}
+
+form label.top input{
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #ccc;
+    border-radius: 4px;
+    padding: .75rem;
+    width:100%;
+    max-width: 20rem;
+}
+
+form label.level{
+    display: block;
+    padding-top: .75rem;
+    font-size: 1rem;
+}
+
+form label.description{
+    display: block;
+    padding: .75rem;
+    font-size: 1rem;
+}
+
+form textarea {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form input.submit{
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #ccc;
+    border-radius: 1px;
+    padding: .75rem;
+    width:96%;
+    max-width: 20rem;
+    margin: 0 0 2rem 2%;
+}
+
+form input.submit #hover{
+    background-color: red;
+}
+
+.thankyou {
+    text-align: center;
+    font-size: 9rem;
+    margin:0 0 2rem 0;
+    padding-left:100%;
+}
