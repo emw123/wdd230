@@ -1,0 +1,88 @@
+{
+    "businesses": [
+        {
+            "name": "Department of Revenue Washington State",
+            "url": "http://www.dore.wa.gov/businesses",
+            "address": "6500 Linderson Way SW, Tumwater, WA 98501",
+            "phone": "(360) 705-6705",
+            "logo": "https://emw123.github.io/wdd230/assignment_portal%20_page/chamber/images/department_of%20revenue_WA.png"
+        },
+        {
+            "name": "Washington State University",
+            "url": "http://www.wsu.edu/",
+            "address": "PO Box 888, Pullman, WA 99163",
+            "phone": "(509)335-3564",
+            "logo": "https://emw123.github.io/wdd230/assignment_portal%20_page/chamber/images/Cougarhead.jpg"
+        },
+        {
+            "name": "Amazon Corporate Headquarters",
+            "url": "http://www.amazon.com/",
+            "address": "440 Terry Ave N, Seattle, WA 98109",
+            "phone": "(206)266-1000",
+            "logo": "https://emw123.github.io/wdd230/assignment_portal%20_page/chamber/images/amazon.png"
+        },
+        {
+            "name": "Microsoft Corporation",
+            "url": "http://www.microsoft.com/",
+            "address": "One Microsoft Way, Redmond, WA 98052",
+            "phone": "(888)725-1047",
+            "logo": "images/microsoft.png"
+        },
+        {
+            "name": "Boeing",
+            "url": "http://www.boeing.com/",
+            "address": "3003 Casino Rd, Everett, WA 98204",
+            "phone": "(425)342-2121",
+            "logo": "https://emw123.github.io/wdd230/assignment_portal%20_page/chamber/images/boeing.png"
+        },
+        {
+            "name": "Accenture",
+            "url": "http://www.accenture.com/",
+            "address": "Opportunity Building, 8383 158th Ave NE, Redmond, WA 98052",
+            "phone": "(877)889-9009",
+            "logo": "https://emw123.github.io/wdd230/assignment_portal%20_page/chamber/images/microsoft.png"
+        },
+        {
+            "name": "HCL Technologies",
+            "url": "http://www.hcltech.com/",
+            "address": "14980 NE 31st St., Suite 300, 3rd Flr, Redmond, WA 98052",
+            "phone": "(408)523-8456",
+            "logo": "https://emw123.github.io/wdd230/assignment_portal%20_page/chamber/images/hcl.png"
+        },
+        {
+            "name": "Cisco Systems",
+            "url": "http://www.cisco.com/",
+            "address": "500 108th Ave NE, Bellevue, WA 98004",
+            "phone": "(425)468-0800",
+            "logo": "https://emw123.github.io/wdd230/assignment_portal%20_page/chamber/images/cisco.png"
+        },
+        {
+            "name": "Marrott",
+            "url": "http://www.marriott.com/",
+            "address": "200 110th Ave NE, Bellevue, WA 98004",
+            "phone": "(425)214-7600",
+            "logo": "https://emw123.github.io/wdd230/assignment_portal%20_page/chamber/images/marriott.png"
+        },
+        {
+            "name": "Ross Dress for Less",
+            "url": "http://www.rossstores.com/",
+            "address": "1947 Marketplace Dr, Burlington, WA 98233",
+            "phone": "(360)707-2604",
+            "logo": "https://emw123.github.io/wdd230/assignment_portal%20_page/chamber/images/ross.png"
+        },
+        {
+            "name": "The Home Depot",
+            "url": "http://www.homedepot.com/",
+            "address": "11915 Hwy 99, Everett, WA 98204",
+            "phone": "(425)267-0337",
+            "logo": "https://emw123.github.io/wdd230/assignment_portal%20_page/chamber/images/home_depot.png"
+        },
+        {
+            "name": "Old Navy",
+            "url": "http://www.oldnavy.com/",
+            "address": "511 Pine St, Seattle, WA 98101",
+            "phone": "(206)623-1800",
+            "logo": "https://emw123.github.io/wdd230/assignment_portal%20_page/chamber/images/old_navy.png"
+        }
+    ]
+}
