@@ -26,7 +26,7 @@
             "url": "http://www.microsoft.com/",
             "address": "One Microsoft Way, Redmond, WA 98052",
             "phone": "(888)725-1047",
-            "logo": "images/microsoft.png"
+            "logo": "https://emw123.github.io/wdd230/assignment_portal%20_page/chamber/images/microsoft.png"
         },
         {
             "name": "Boeing",
@@ -40,7 +40,7 @@
             "url": "http://www.accenture.com/",
             "address": "Opportunity Building, 8383 158th Ave NE, Redmond, WA 98052",
             "phone": "(877)889-9009",
-            "logo": "https://emw123.github.io/wdd230/assignment_portal%20_page/chamber/images/microsoft.png"
+            "logo": "https://emw123.github.io/wdd230/assignment_portal%20_page/chamber/images/accenture.png"
         },
         {
             "name": "HCL Technologies",
