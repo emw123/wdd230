@@ -8,12 +8,13 @@
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="styles/weather.css">
 </head>
 <body>
     <header> 
         <div>
         <img class = 'header-logo' src="images/copy-shark-logo.webp" alt="logo">
-        <p class = "site-name">Whitefish Chamber of Commerce</p>
+        <p class = "site-name">Puyallup Chamber of Commerce</p>
         <p><span id = 'headerdate'></span></p>
         </div>     
         <nav>
@@ -29,7 +30,7 @@
                     <a href="join.html">Join</a>
                 </li>
                 <li class = "active">
-                    <a href="#">Page 4</a>
+                    <a href="directory.html">Business Directory</a>
                 </li>
                 <li class = "active">
                     <a href="#">Facebook</a>
@@ -49,23 +50,31 @@
                 <img src="images/wdd230-phone-org.jpg" alt="hero-image" class = 'hero-image'>
             </picture>
             <div id = "hero-parent">
-            <div id = "hero-child"><h1>Welcome to Whitefish</h1></div>
+            <div id = "hero-child"><h1>Welcome to Puyallup</h1></div>
             <button id = "hero-button">Join The Chamber</button>
             </div>
         </section>
         <section class = 'event'>
             <h2>Grand Opening!</h2>
             <p>Join us at the grand opening of the new main hub of communications in Whitefish! The new 
-                Whitefish Chamber of Commerce will be open to the public on the first of the month. 
+                Puyallup Chamber of Commerce will be open to the public on the first of the month. 
                 Come and join us for a great time!</p>
             </p>
         </section>
         <section class = 'weather'>
-            <h2>Weather</h2>
-            <p>Today's weather is: 33 degrees C</p>
-            <p>Partly Cloudy</p>
-            <p>Windspeed: 2.5</p>
-            <p>Windchill is: <span id = "windchill"></span></p>
+            <h2 id="weather-header">Weather</h2>
+            <box id="icon-box">
+                <p><span id="icon-src"></span></p>
+                <img src="" alt="" id="weathericon"/>
+            </box>
+            <box id="weather-report-box">
+                <p><span id="weather-report"></span></p>
+            </box>
+            <box id="wind-box">
+                <p id="temp"><span id="current-temp"></span> &deg;F</p>
+                <p>Windspeed: <span id="windspeed"></span> km/h</p>
+                <p>Windchill: <span id = "windchill"></span>&deg;F</p>
+            </box>
         </section>
         <section class = 'join'>
             <button class = "join-button">JOIN US!</button>
@@ -82,7 +91,7 @@
                 <img src="images/pizza-icon.webp" alt="pizza-image" class = 'pizza-image'>
             </div>
             <div class = 'spotlight2'>
-                <h2>Whitefish Car Repair</h2>
+                <h2>Puyallup Car Repair</h2>
                 <img src="images/Car_icon_alone.png" alt="car-image" class = 'car-image'>
             </div>
             <div class = 'spotlight3'>
@@ -93,7 +102,7 @@
     </main>
     <footer>
         <img class = 'header-logo' src="images/copy-shark-logo.webp" alt="logo">
-        <p>&copy;<span id = 'year'></span> Whitefish Chamber | Emma Ward | WDD 230 Project | Last Modification: <span id = 'lastDate'></span></p>
+        <p>&copy;<span id = 'year'></span> Puyallup Chamber | Emma Ward | WDD 230 Project | Last Modification: <span id = 'lastDate'></span></p>
     </footer>
     <script src="scripts/chamber.js"></script>
     <script src="scripts/windchill.js"></script>
