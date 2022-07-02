@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="styles/form.css">
+</head>
+<body>    <header> 
+    <div class="header">
+    <img class = 'header-logo' src="images/copy-shark-logo.webp" alt="logo">
+    <p class = "site-name">Puyallup Chamber of Commerce</p>
+    <p><span id = 'headerdate'></span></p>
+    </div>     
+    <nav>
+        <button id = "hamburgerButton">&#9776;</button>
+        <ul id = "primaryNav">
+            <li class = "active">
+                <a href="index.html">Home</a>
+            </li>
+            <li class = "active">
+                <a href="discover.html">Discover</a>
+            </li>
+            <li class = "active">
+                <a href="join.html">Join</a>
+            </li>
+            <li class = "active">
+                <a href="directory.html">Business Directory</a>
+            </li>
+            <li class = "active">
+                <a href="contact.html">Contact</a>
+            </li>
+            <li class = "active">
+                <a href="#">Facebook</a>
+            </li>
+            <li class = "active">
+                <a href="#">Instagram</a>
+            </li>
+
+            </ul>
+        </nav>   
+</header>
+<form>
+        <fieldset>
+            <legend>Have a Question?</legend>
+            <p class = "required">* Required Field</p>
+            <label class="top" for="firstName">First Name*:
+                <input type="text" name="firstName" id="firstName" required>
+            </label>
+            <label class="top" for="lastName">Last Name*:
+                <input type="text" name="lastName" id="lastName" required>
+            </label>
+            <label class="top" for="email">Email:
+                <input type="email" name="email" id="email" placeholder="example@email.com">
+            </label>
+            <label class="top" for="phone">Phone*:
+                <input type="tel" name="phone" id="phone" required>
+            </label>
+            <label class="description">
+                <p>Please Type Your Question</p>
+                <textarea name="businessDescription" id="businessDescription" cols="60" rows="5"></textarea>
+            </label>
+            <label>
+                <input id="date" type="hidden" name="email_sent_date">
+            </label>
+            <label>
+                <input class="submit" type="submit" value="Submit Question">
+            </label>
+        </fieldset>
+        <fieldset class="board">
+            <legend>Board of Directors</legend>
+            <box class = "board-member">
+                <h2>Kyle Hardtke</h2>
+                <p>President</p>
+                <p>Amazing Landscape Services</p>
+            </box>
+            <box class = "board-member">
+                <h2>Shaun Brobak</h2>
+                <p>Owner</p>
+                <p>Crockett's Restaurant Group</p>
+            </box>
+            <box class = "board-member">
+                <h2>Renee McClain</h2>
+                <p>Chief Financial Officer</p>
+                <p>Washington State Fair </p>
+            </box>
+            <box class = "board-member">
+                <h2>Curt Gimmestad</h2>
+                <p>Vice President of Industry</p>
+                <p>Engagement</p>
+                <p>Absher Construction Co.</p>
+            </box>
+            <box class = "board-member">
+                <h2>Cameron Roberts</h2>
+                <p>Director of Operations, US </p>
+                <p>Pharmaceutical Solutions and Services</p>
+                <p>McKesson</p>
+            </box>
+            <box class = "board-member">
+                <h2>Kyle Hardtke</h2>
+                <p>President</p>
+                <p>Amazing Landscape Services</p>
+            </box>
+            <box class = "board-member">
+                <h2>Justin Jones</h2>
+                <p>Co-Owner & Senior Civil Engineer</p>
+                <p>JMJ Team</p>
+            </box>
+            <box class = "board-member">
+                <h2>Jim Beatty</h2>
+                <p>President & Chief Operating </p>
+                <p>Officer</p>
+                <p>MultiCare Good Samaritan</p>
+                <p>Hospital</p>
+            </box>
+            <box class = "board-member">
+                <h2>Sloan Clack</h2>
+                <p>Real Estate Development and Asset Manager</p>
+                <p>Corliss Management Group, LLC</p>
+            </box>
+            <box class = "board-member">
+                <h2>Luke Korum</h2>
+                <p>General Sales Manager</p>
+                <p>Bill Korum’s Puyallup Nissan</p>
+            </box>
+            <box class = "board-member">
+                <h2>Paul Long</h2>
+                <p>SVP Business Banking</p>
+                <p>Timberland Bank</p>
+            </box>
+            <box class = "board-member">
+                <h2>David Montevideo</h2>
+                <p>Leasing Director</p>
+                <p>Cafaro Company (South Hill Mall)</p>
+            </box>
+            <box class = "board-member">
+                <h2>Therese Pasquier</h2>
+                <p>Chief Executive Officer</p>
+                <p>Sound Family Medicine</p>
+            </box>
+            <box class = "board-member">
+                <h2>Karissa Thompson</h2>
+                <p>Community Engagement Officer</p>
+                <p>Red Canoe Credit Union</p>
+            </box>
+            <box class = "board-member">
+                <h2>Shellie Willis</h2>
+                <p>Senior Director of Collective Impact</p>
+                <p>WorkForce Central</p>
+            </box>
+            <box class = "board-member">
+                <h2>Ryan Wheaton</h2>
+                <p>Executive Director of Planning & Community Development</p>
+                <p>Pierce Transit</p>
+            </box>
+        </fieldset>
+</form>
+<footer>
+    <img class = 'header-logo' src="images/copy-shark-logo.webp" alt="logo">
+    <p>&copy;<span id = 'year'></span> Puyallup Chamber | Emma Ward | WDD 230 Project | Last Modification: <span id = 'lastDate'></span></p>
+</footer>
+<script src="scripts/chamber.js"></script>
+<script src="scripts/windchill.js"></script>
+</body>
+</html>

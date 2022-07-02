@@ -183,4 +183,35 @@ footer {
     margin-bottom: 15px;
 }
 
+.discover-heading{
+    text-align: center;
+}
+
+.discover-img{
+    width: 100%;
+    height: 100%;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+div.gallery-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.gallery {
+    border: 1px solid black;
+    width:400px;
+    margin: 15px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  
+  div.desc {
+    font-size: 10px;
+    text-align: center;
+  }
 }
