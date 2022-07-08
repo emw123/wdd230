@@ -1,0 +1,145 @@
+body {
+    background-color: #B4B4B4;
+}
+
+header{
+    background-color: #AD8A56;
+    color: white;
+    border-radius: 5%;
+}
+.header-logo {
+    border-radius: 40%;
+    width: 90px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+
+
+nav button{
+    display: none;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+nav li {
+    list-style-type: none;
+    
+}
+
+nav li a {
+    float: left;
+    padding: 30px 16px;
+    color: white;
+    text-decoration: none;
+    font-size: 0.7cm;
+    text-align: center;
+    font-family: 'Gentium Book Plus', serif;
+
+}
+
+nav li a:hover {
+    background-color: rgba(0,0,0,0.3);
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+    color: #0A0500;
+    background-color: #D7D7D7;
+    font-family: 'Gentium Book Plus', serif;
+    margin-top: -5%;
+    margin-bottom: 1%;
+    margin-left:35%;
+    margin-right:35%;
+    border-radius: 5%;
+}
+
+h2{
+    font-size: 40px;
+    text-align: center;
+    color: #0A0500;
+    background-color: #C9B037;
+    font-family: 'Gentium Book Plus', serif;
+    margin-left:35%;
+    margin-right:35%;
+    border-radius: 5%;
+}
+
+
+p {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    background-color: #AF9500;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-left: 15%;
+    margin-right:15%;
+    border-radius: 5%;
+}
+
+.color_palette_image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.final_project_site_map {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.phone_wireframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+.tablet_wireframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.large_wireframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+footer{
+background-color: #AD8A56;
+color: white;
+border-radius: 5%;
+}
+
+.footer-h2 {
+    font-size: 35px;
+    color: #0A0500;
+    background-color: #D7D7D7;
+    font-family: 'Gentium Book Plus', serif;
+    margin-left: 10%;
+    margin-right:10%;
+    margin-bottom: -10%;
+}
+
+.footer-logo {
+    border-radius: 40%;
+    width: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:15px;
+}   
