@@ -1,0 +1,40 @@
+{
+"temples": [
+    {
+        "img": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/aba-nigeria/400x250/aba-nigeria-temple-lds-1636397-wallpaper.jpg",
+        "name": "Aba Nigeria Temple",
+        "address": "72-80 Okpu-Umuobo Rd Aba Abia State, Nigeria",
+        "phone": "(234)80-3903-4810",
+        "services": "No clothing rental available, No cafeteria available, Patron housing available, Distribution center nearby",
+        "closures": "Saturday, 20 August 2022, Monday, 5 September 2022 - Monday, 2 January 2023",
+        "history": "Announced: 2 April 2000, Groundbreaking: 23 February 2002, Dedcated: 7 August 2005"
+    },
+    {
+        "img": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/boston-massachusetts/400x640/boston-temple-lds-924769-wallpaper.jpg",
+        "name": "Boston Massachusetts Temple",
+        "address": "100 Hinckley Wy Belmont MA 02478-2135 United States",
+        "phone": "(1)617-993-9993",
+        "services": "Clothing rental available, Cafeteria available, No patron housing available, Distribution center nearby",
+        "closures": "Monday, 26 September 2022 - Monday, 17 October 2022",
+        "history": "Announced: 30 September 1995, Groundbreaking: 13 June 1997, Dedicated: 1 October 2000"
+    },
+    {
+        "img": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/bern-switzerland/400x640/bern-switzerland-temple-lds-935480-wallpaper.jpg",
+        "name": "Bern Switzerland Temple",
+        "address": "Tempelstrasse 2 CH-3052 Zollikofen Switzerland",
+        "phone": "(41)31-915-5252",
+        "services": "Clothing rental available, No cafeteria available, Patron housing available, Distribution center nearby",
+        "closures": "Saturday, 24 December 2022, Saturday, 31 December 2022",
+        "history": "Announced: 1 July 1952, Groundbreaking: 5 August 1953, Dedicated: 11 September 1955, Rededicated: 23 October 1992"
+    },
+    {
+        "img": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/brisbane-australia/400x250/brisbane-australia-temple-lds-901526-wallpaper.jpg",
+        "name": "Brisbane Australia Temple",
+        "address": "200 River Terrace Kangaroo Point QLD 4169 Australia",
+        "phone": "(61)7-3240-3600",
+        "services": "No clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
+        "closures": "Monday, 13 June 2022 - Monday, 17 October 2022, Saturday, 24 December 2022",
+        "history": "Announced: 20 July 1998, Groundbreaking: 26 May 2001, Dedicated: 15 June 2003"
+    }
+]
+}
